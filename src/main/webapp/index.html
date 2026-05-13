@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="container">
+    <h2>Can you survive ZSGS?</h2>
+    <form action="survive" method="get">
+        <label for="tea">Number of cups of tea or coffee you drink per day :</label>
+        <input type="number" id="tea" name="tea" required>
+
+        <label for="sleep">Number of hours you sleep per day :</label>
+        <input type="number" id="sleep" name="sleep" required>
+
+        <label for="backlog">Number of pending assignments :</label>
+        <input type="number" id="backlog" name="backlog" required>
+
+        <label for="leetcode">Number of LeetCode problems solved :</label>
+        <input type="number" id="leetcode" name="leetcode" required>
+
+        <label for="assessment">Number of problems solved in the last assessment :</label>
+        <input type="number" id="assessment" name="assessment" required>
+
+        <input type="submit" value="Calculate Survival Percentage">
+    </form>
+</div>
+</body>
+
+</html>
